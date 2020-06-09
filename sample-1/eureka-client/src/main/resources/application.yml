@@ -1,0 +1,11 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: eureka-client
+mybatis:
+  mapper-locations: classpath:mappers/*Mapper.xml
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin123@127.0.0.1:8000/eureka/

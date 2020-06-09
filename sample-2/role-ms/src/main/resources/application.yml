@@ -1,0 +1,9 @@
+server:
+  port: 8802
+spring:
+  application:
+    name: role-ms
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin123@127.0.0.1:8000/eureka/
