@@ -6,6 +6,7 @@
     <modules>
         <module>sample-1</module>
         <module>sample-2</module>
+        <module>sample-3</module>
     </modules>
 
     <parent>
