@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * Date   2020-6-9
  */
 
-@FeignClient(name = "role-ms")
-//@RibbonClient(name = "role-ms", configuration = RibbonConfig.class)
+@FeignClient(name = "role-ms", fallbackFactory = RoleFeignClientFallbackFactory.class)
 public interface RoleFeignClient {
 
     @RequestMapping(value = {"/roles"}, method = RequestMethod.GET)
