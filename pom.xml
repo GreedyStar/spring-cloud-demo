@@ -8,6 +8,7 @@
         <module>sample-2</module>
         <module>sample-3</module>
         <module>sample-4</module>
+        <module>sample-5</module>
     </modules>
 
     <parent>

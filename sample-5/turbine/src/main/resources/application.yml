@@ -1,0 +1,16 @@
+server:
+  port: 8807
+spring:
+  application:
+    name: turbine
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin123@127.0.0.1:8000/eureka/
+turbine:
+  combine-host-port: true
+  appConfig: user-ms
+  clusterNameExpression: new String("default")
+  instanceUrlSuffix: /hystrix.stream
+  aggregator:
+    cluster-config: default
