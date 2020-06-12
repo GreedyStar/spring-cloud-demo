@@ -1,0 +1,16 @@
+server:
+  port: 8808
+spring:
+  application:
+    name: zipkin-server
+  main:
+    allow-bean-definition-overriding: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin123@127.0.0.1:8000/eureka/
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
