@@ -5,3 +5,4 @@ SpringCloud 学习笔记项目，包括：
 - sample-3：Zuul 服务网关
 - sample-4：SpringCloudConfig 配置中心 & 动态配置更新
 - sample-5：Turbine 集群监控
+- sample-6：Zipkin Server 链路追踪
