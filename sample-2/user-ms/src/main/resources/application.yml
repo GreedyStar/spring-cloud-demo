@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: user-ms
+  zipkin:
+    base-url: http://localhost:8808 # ZipkinServer地址
+  sleuth:
+    sampler:
+      probability: 1.0 # 阈值，表示上报所有调用链路信息
 eureka:
   client:
     service-url:
